@@ -10,7 +10,7 @@ Bulk delete your Discord messages via the search API. Rate limit handling and cu
 4. Find a request to `@me` or `profile?`
 5. Look at **Request Headers** → copy the `authorization` token
 6. Go to the **Application** tab → **Cookies** → `https://canary.discord.com`
-7. Copy: `__dcfduid`, `__sdcfduid`, `__stripe_mid`, `cf_clearance`
+7. Copy: `__dcfduid`, `__sdcfduid` and `cf_clearance`. `__stripe_mid` is optional and may not appear in your cookies; if you cannot find it, leave `COOKIE_STRIPE_MID` unset
 
 ## Setup
 
